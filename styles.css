@@ -1,0 +1,69 @@
+button {
+  padding: 50px 50px;
+  background-color: #6921e5;
+  font-size: 40px;
+  font-weight: 100;
+  color: #b491ef;
+  border: none;
+  margin: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Snap;
+  background-image: url('./assets/img/Group\ 1\ \(3\).jpg');
+  background-color: #2c0078;
+  background-size: 2500px 1800px;
+  padding: 0px 80px 50px 80px;
+}
+
+h1 {
+  font-size: 80px;
+  color: #2c0078;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  margin: 16px 0px;
+}
+
+h2 {
+  font-size: 40px;
+  color: #d9c2ff;
+  font-weight: 100;
+}
+
+p {
+  font-size: 40px;
+  font-weight: 100;
+  color: #6921e5;
+}
+
+#question-container {
+  background-color: #b491ef;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+#answers {
+  display: flex;
+  justify-content: center;
+}
+
+.photo,
+.photo2 {
+  width: 180px;
+  position: absolute;
+}
+
+.photo {
+  left: 20px;
+  top: 5%;
+}
+
+.photo2 {
+  right: 5px;
+  top: 48%;
+}
